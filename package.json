@@ -1,0 +1,30 @@
+{
+  "name": "my-code-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "author": "Sahil Khubchandani <sahil.khubchandani113814@marwadiunviersity.ac.in>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.27.0",
+    "minimist": "^1.2.7"
+  },
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "jest": "^29.3.1",
+    "lint-staged": "^13.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/White-Devil-Tech/wd-201-lvl2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/White-Devil-Tech/wd-201-lvl2/issues"
+  },
+  "homepage": "https://github.com/White-Devil-Tech/wd-201-lvl2#readme"
+}
